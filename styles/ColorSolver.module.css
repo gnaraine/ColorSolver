@@ -1,7 +1,7 @@
 .container {
-  margin: 50px auto;
-  padding: 50px;
-  width: 500px;
+  /* margin: 50px auto; */
+  /* padding: 50px; */
+  /* width: 800px; */
   /* border: solid 1px white; */
   border-radius: 20px;
   color: white;
@@ -10,14 +10,14 @@
 
 .points {
   margin: 0 auto;
-  width: 300px;
+  width: fit-content;
 }
 .colorBox {
   margin: 0 auto;
   border: 1px solid rgb(46, 46, 46);
   border-radius: 6px;
-  width: 300px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
 }
 
 .buttons {
@@ -29,7 +29,7 @@
 
 .buttons button {
   color: rgb(0, 0, 0);
-  font-size: 28px;
+  font-size: 38px;
   margin: 5px;
   border: none;
   border-radius: 5px;
