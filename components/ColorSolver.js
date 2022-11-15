@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
-export default function colorSolver() {
+export default function ColorSolver() {
   const [color, setColor] = useState();
   const [choices, setChoices] = useState([]);
   const [points, setPoints] = useState(0);
@@ -57,7 +57,7 @@ export default function colorSolver() {
   };
 
   useEffect(() => {
-    generateColors();
+    generateColors(color);
   }, []);
   return (
     <div className={styles.container}>
