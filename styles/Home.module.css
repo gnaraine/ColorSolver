@@ -1,46 +1,4 @@
-.container {
+.back {
   margin: 50px auto;
-  padding: 50px;
-  width: 500px;
-  /* border: solid 1px white; */
-  border-radius: 20px;
-  color: white;
-  background: rgb(39, 39, 39);
-}
-
-.points {
-  margin: 0 auto;
-  width: 300px;
-}
-.colorBox {
-  margin: 0 auto;
-  border: 1px solid rgb(46, 46, 46);
-  border-radius: 6px;
-  width: 300px;
-  height: 200px;
-}
-
-.buttons {
-  margin: 0 auto;
-  margin-top: 10px;
-  /* width: 400px; */
-  text-align: center;
-}
-
-.buttons button {
-  color: rgb(0, 0, 0);
-  font-size: 28px;
-  margin: 5px;
-  border: none;
-  border-radius: 5px;
-}
-
-.incorrect {
-  /* border: solid 3px rgb(214, 71, 71); */
-  /* box-shadow: 0 0 5px rgba(255, 0, 0, 0.979); */
-}
-
-.correct {
-  /* border: solid 3px rgb(159, 248, 159); */
-  /* box-shadow: 0 0 5px rgba(102, 255, 0, 0.801); */
+  width: fit-content;
 }

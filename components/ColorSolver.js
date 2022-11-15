@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/ColorSolver.module.css";
 export default function ColorSolver() {
   const [color, setColor] = useState();
   const [choices, setChoices] = useState([]);
